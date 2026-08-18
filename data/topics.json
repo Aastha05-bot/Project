@@ -1,0 +1,196 @@
+[
+  {
+    "id": "phishing",
+    "color": "var(--coral)",
+    "title": "Phishing",
+    "tagline": "Spotting fake messages before they trick you.",
+    "storyTitle": "The Message That Looked Real",
+    "chars": { "a": "maya", "b": "aarav" },
+    "scenes": [
+      {
+        "tag": "Scene 1 · A Normal Afternoon",
+        "narration": "It was a quiet Saturday afternoon. Maya was finishing her homework on her tablet when her phone buzzed. A new message read: Congratulations! You have won a brand-new smartphone! Click this link within 10 minutes to claim your prize!",
+        "convo": [{ "who": "a", "text": "Wow! I won a phone! I can't believe it!" }]
+      },
+      {
+        "tag": "Scene 2 · Something Doesn\u2019t Feel Right",
+        "narration": "Just then, her friend Aarav walked into the room.",
+        "convo": [
+          { "who": "b", "text": "What's so exciting?" },
+          { "who": "a", "text": "Look! I won a new smartphone!" },
+          { "who": "b", "text": "Did you enter a competition?" },
+          { "who": "a", "text": "No, I don't remember entering one." },
+          { "who": "b", "text": "Do you know this person?" },
+          { "who": "a", "text": "No. I've never seen this number before." }
+        ]
+      },
+      {
+        "tag": "Scene 3 · Check Before You Click",
+        "narration": "Aarav pointed at the link and the message's urgent countdown.",
+        "convo": [
+          { "who": "b", "text": "Look at the website address. It looks strange, and the message is trying to make you hurry." },
+          { "who": "a", "text": "Maybe they're trying to make me act without thinking." },
+          { "who": "b", "text": "Exactly. We should check before clicking." }
+        ]
+      },
+      {
+        "tag": "Scene 4 · The Smart Choice",
+        "narration": "Maya searched for the company's official website. There was no information about any competition.",
+        "convo": [
+          { "who": "a", "text": "This is phishing!" },
+          { "who": "b", "text": "Yes. Phishing messages try to trick people into clicking harmful links or giving away personal information." },
+          { "who": "a", "text": "I'm glad I checked first." },
+          { "who": "b", "text": "Remember: stop, check, and think before you click." }
+        ]
+      }
+    ],
+    "activity": {
+      "type": "quiz",
+      "title": "Quiz Time",
+      "sub": "Answer all 5 questions to complete this lesson.",
+      "questions": [
+        { "q": "What did Maya receive?", "options": ["A message saying she won a free smartphone", "A phone call from her school", "An email about homework", "A letter in the mail"], "correct": 0 },
+        { "q": "Did Maya know the sender?", "options": ["Yes, it was a close friend", "No, she had never seen the number before", "Yes, it was her teacher", "She wasn\u2019t sure"], "correct": 1 },
+        { "q": "What made the message suspicious?", "options": ["It came from a known company", "It asked her to hurry and click within 10 minutes", "It had no pictures", "It was written in a foreign language"], "correct": 1 },
+        { "q": "What did Maya do before clicking the link?", "options": ["She clicked it immediately", "She asked Aarav and checked the official website", "She shared it with everyone", "She ignored her phone"], "correct": 1 },
+        { "q": "What type of scam was the message?", "options": ["Malware", "Phishing", "A spam phone call", "A fake review"], "correct": 1 }
+      ]
+    }
+  },
+  {
+    "id": "malware",
+    "color": "var(--plum)",
+    "title": "Malware",
+    "tagline": "Knowing what happens after a risky download.",
+    "storyTitle": "The Unknown Download",
+    "chars": { "a": "aarav", "b": "maya" },
+    "scenes": [
+      {
+        "tag": "Scene 1 · A New Game",
+        "narration": "Aarav loved playing games on his computer. One afternoon he found a website offering a popular game for free, with a big button that read: DOWNLOAD FREE GAME.",
+        "convo": [{ "who": "a", "text": "Awesome! I can get the game for free." }]
+      },
+      {
+        "tag": "Scene 2 · Something Strange",
+        "narration": "A file appeared on his computer with a strange filename, then a pop-up flashed: Your computer is infected! Click here to fix it!",
+        "convo": [
+          { "who": "a", "text": "Oh no! What's happening?" },
+          { "who": "b", "text": "Where did you download that file from?" },
+          { "who": "a", "text": "This website. It said the game was free." }
+        ]
+      },
+      {
+        "tag": "Scene 3 · A Dangerous File",
+        "narration": "Maya looked concerned.",
+        "convo": [
+          { "who": "b", "text": "Downloading files from unknown websites can be dangerous. The file could contain malware." },
+          { "who": "a", "text": "Malware? What's that?" },
+          { "who": "b", "text": "Malware is harmful software that can damage your device or steal information." }
+        ]
+      },
+      {
+        "tag": "Scene 4 · Protect the Device",
+        "narration": "Maya helped Aarav close the suspicious pop-up. They deleted the downloaded file and ran a security scan.",
+        "convo": [
+          { "who": "a", "text": "Next time, I'll only download software from trusted sources." },
+          { "who": "b", "text": "Good choice!" }
+        ]
+      }
+    ],
+    "activity": {
+      "type": "quiz",
+      "title": "MCQ",
+      "sub": "Answer each question to complete this lesson.",
+      "questions": [
+        { "q": "Aarav downloaded a game from an unknown website. What could the file contain?", "options": ["A new password", "Malware", "A school assignment", "A photo"], "correct": 1 },
+        { "q": "What should Aarav do when he sees a suspicious download?", "options": ["Open it", "Share it with friends", "Stop and delete it", "Download it again"], "correct": 2 },
+        { "q": "What is malware?", "options": ["A type of computer game", "Harmful software that can damage or misuse a device", "A strong password", "A search engine"], "correct": 1 },
+        { "q": "Where is it safer to download software?", "options": ["Random websites", "Unknown links", "Trusted or official sources", "Pop-up advertisements"], "correct": 2 }
+      ]
+    }
+  },
+  {
+    "id": "password",
+    "color": "var(--gold)",
+    "title": "Password Security",
+    "tagline": "Building passwords that are hard to guess.",
+    "storyTitle": "Maya\u2019s Easy Password",
+    "chars": { "a": "maya", "b": "aarav" },
+    "scenes": [
+      {
+        "tag": "Scene 1 · Creating an Account",
+        "narration": "Maya wanted to create an account for a new learning website. It asked her to create a password, so she quickly typed: maya123.",
+        "convo": [{ "who": "a", "text": "Done! That's easy to remember." }]
+      },
+      {
+        "tag": "Scene 2 · A Warning",
+        "narration": "Aarav saw the password over her shoulder.",
+        "convo": [
+          { "who": "b", "text": "Maya, that password is very easy to guess." },
+          { "who": "a", "text": "But it's my name and a number. What's wrong with that?" },
+          { "who": "b", "text": "Someone who knows you might easily guess it." }
+        ]
+      },
+      {
+        "tag": "Scene 3 · Making It Stronger",
+        "narration": "Aarav explained that a strong password should be long, difficult to guess, and not based on easily known personal information.",
+        "convo": [
+          { "who": "a", "text": "So I shouldn't just use my name or birthday?" },
+          { "who": "b", "text": "Right. And don't reuse the same password everywhere." },
+          { "who": "a", "text": "Now I understand!" }
+        ]
+      }
+    ],
+    "activity": {
+      "type": "password-builder",
+      "title": "Create a Strong Password",
+      "sub": "Type a password below and watch it get stronger.",
+      "words": ["River", "Moon", "Blue"],
+      "numbers": ["7", "42", "123"],
+      "symbols": ["!", "@", "#"]
+    }
+  },
+  {
+    "id": "privacy",
+    "color": "var(--blue-dark)",
+    "title": "Privacy & Online Safety",
+    "tagline": "Thinking twice before sharing personal details.",
+    "storyTitle": "Before You Share",
+    "chars": { "a": "maya", "b": "sita" },
+    "scenes": [
+      {
+        "tag": "Scene 1 · A New Post",
+        "narration": "Sita was excited about her new school. She took a picture outside her house, opened her social media app, and started writing a post about being home alone, with exactly where she lived and how close her school was.",
+        "convo": []
+      },
+      {
+        "tag": "Scene 2 · Think Before Sharing",
+        "narration": "Maya saw the post before Sita hit share.",
+        "convo": [
+          { "who": "a", "text": "Wait, Sita. Do you really want everyone to know where you live?" },
+          { "who": "b", "text": "Hmm, I didn't think about that." },
+          { "who": "a", "text": "Some information is better kept private." }
+        ]
+      },
+      {
+        "tag": "Scene 3 · Personal Information",
+        "narration": "Maya pointed out exactly what was risky in the post.",
+        "convo": [
+          { "who": "a", "text": "Your home location and school details are personal information. Sharing them publicly can put your privacy at risk." },
+          { "who": "b", "text": "I'll think carefully before sharing personal information online." }
+        ]
+      }
+    ],
+    "activity": {
+      "type": "fill-blank",
+      "title": "Fill in the Blanks",
+      "sub": "Complete each sentence with the right word.",
+      "items": [
+        { "sentence": "We should think before ___ personal information online.", "answer": "sharing" },
+        { "sentence": "Our home address is ___ information.", "answer": "personal" },
+        { "sentence": "We should check our ___ settings to control who can see our posts.", "answer": "privacy" },
+        { "sentence": "We should avoid sharing sensitive information with ___ people online.", "answer": "unknown" }
+      ]
+    }
+  }
+]
